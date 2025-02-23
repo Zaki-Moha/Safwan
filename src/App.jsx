@@ -7,12 +7,14 @@ import Flex from './Conponnents/Flex'
 import ImageBanner from './assets/gil.jpg'
 import Image from './Conponnents/Image'
 import Navber from './layouts/Navber'
+import Banner from './layouts/Banner'
 
 
 const App = () => {
   return (
     <div>
       <Navber/>
+      <Banner/>
 
     </div>
   )

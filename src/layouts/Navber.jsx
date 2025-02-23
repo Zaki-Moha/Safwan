@@ -11,7 +11,7 @@ const Navber = () => {
     <section className='py-[18px]'>
         <Container>
             <Flex className='items-center'>
-                <div className='w-3/12 '>
+                <div className='w-4/12 '>
                 <Image src={Logo}/>
                 </div>
 
