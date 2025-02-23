@@ -1,0 +1,24 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors:{
+        'primary': '#00413D',
+        'secondery' : '#E5745D'
+      },
+      fontFamily: {
+        'jost': ['Jost'],
+        
+      },
+      maxWidth: {
+        'container': "1170px"
+      }
+      
+    },
+  },
+  plugins: [],
+}
