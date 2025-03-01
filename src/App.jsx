@@ -8,6 +8,7 @@ import ImageBanner from './assets/gil.jpg'
 import Image from './Conponnents/Image'
 import Navber from './layouts/Navber'
 import Banner from './layouts/Banner'
+import Service from './layouts/Service'
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
     <div>
       <Navber/>
       <Banner/>
+      <Service/>
 
     </div>
   )
